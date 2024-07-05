@@ -23,6 +23,10 @@ services:
   packages:
   - name: SIQAGitProject
     version: "1.0"
+- serviceName: project.siqagit.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:NewDBInsert
+  packages:
+  - name: SIQAGitProject
+    version: "1.0"
 configurationVariables:
   ? artConnection.SIQAGitProject.project.siqagit.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
   : Progress® DataDirect®
